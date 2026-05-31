@@ -1,0 +1,3 @@
+[submodule "ivxv"]
+	path = ivxv
+	url = git@github.com:valimised/ivxv.git

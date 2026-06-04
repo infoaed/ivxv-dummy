@@ -69,8 +69,8 @@ digidoc-tool create --file=out-2/DUMMY-bb-2.json.sha256sum out-2/DUMMY-bb-2.json
 Võtme-, töötlemis- ja auditirakenduse töölesaamiseks eelnevalt:
 
 ```
-git clone --recurse-submodules https://github.com/infoaed/korduva-kryptogrammi-juhtum.git
-cd korduva-kryptogrammi-juhtum
+git clone --recurse-submodules https://github.com/infoaed/ivxv-dummy.git
+cd ivxv.dummy
 git submodule update --init --recursive
 
 sudo apt update
@@ -88,7 +88,7 @@ make -C ivxv key ONLINE=1 DEVELOPMENT=1
 
 ## Häälte lisamine valimiskasti
 
-Hääled peavad olema õigesti pakendatud ZIP-failis, millel on kontrollsumma ja kontrollsumma digiallkirjastatud.
+Hääled peavad olema õigesti pakendatud ZIP-failis, millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
 
 ```
 ./votepackage.py --extract-pcn ivxv-dummy votes.zip

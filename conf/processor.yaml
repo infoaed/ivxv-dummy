@@ -1,0 +1,25 @@
+checkAndSquash:
+  ballotbox: ../votes.zip
+  ballotbox_checksum: ../votes.zip.sha256sum.asice
+  districts: districts.asice
+  #registrationlist: registration.zip
+  #registrationlist_checksum: registration.zip.sha256sum.asice
+  tskey: ts.pem
+  vlkey: vl_pub.pem
+  voterlists:
+    - path: voterlist.txt
+      signature: voterlist.txt.signature
+  #  - path: voterlist2.txt
+  #    signature: voterlist2.txt.signature
+  election_start: 2025-10-13T06:00:00+03:00
+  enckey: ../initout/DUMMY-pub.pem
+  #ballotbox_checksum: ../out-1/DUMMY-bb-1.json.sha256sum.asice
+  out: ../out-2
+
+revokeAndAnonymize:
+  ballotbox: ../out-2/DUMMY-bb-2.json
+  ballotbox_checksum: ../out-2/DUMMY-bb-2.json.sha256sum.asice
+  districts: districts.asice
+  revocationlists:
+#   - tuhistusnimekiri.asice
+  out: ../out-4

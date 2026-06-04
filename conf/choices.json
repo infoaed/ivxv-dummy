@@ -1,0 +1,17 @@
+{
+  "election": "DUMMY",
+  "choices": {
+    "0000.1": {
+      "Üksikkandidaadid": {
+        "0000.101": "Kalle Sokk",
+        "0000.102": "Villu Kits"
+      }
+    },
+    "0000.2": {
+      "Üksikkandidaadid": {
+        "0000.103": "Mari Luik",
+        "0000.104": "Liisa Kurg"
+      }
+    }    
+  }
+}

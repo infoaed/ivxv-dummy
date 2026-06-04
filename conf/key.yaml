@@ -1,0 +1,52 @@
+init:
+  identifier: DUMMY
+  paramtype:
+    ec:
+      name: P-384
+  out: ../initout
+  skiptest: true
+  fastmode: true
+  signaturekeylen: 3072
+  signcn: SIGNATURE-DUMMY
+  signsn: 1
+  enccn: ENCRYPTION-DUMMY
+  encsn: 2
+  required_randomness: 128
+  random_source:
+#  - random_source_type: file
+#    random_source_path: randomness_file
+#  - random_source_type: system
+#  - random_source_type: DPRNG
+#    random_source_path: seed_file
+  - random_source_type: stream
+    random_source_path: /dev/urandom
+#  - random_source_type: user
+#    random_source_path: server.exe
+
+  genprotocol:
+    desmedt:
+      threshold: 5
+      parties: 9
+
+decrypt:
+  identifier: DUMMY
+  protocol:
+    recover:
+      threshold: 5
+      parties: 9
+  anonballotbox: ../out-4/DUMMY-bb-4.json
+  anonballotbox_checksum: ../out-4/DUMMY-bb-4.json.sha256sum.asice
+  candidates: choices.asice
+  districts: districts.asice
+  provable: true
+  prove_invalid: true
+  check_decodable: false
+  out: ../decout
+
+util:
+  listreaders: true
+
+testkey:
+  out: ../initout
+  threshold: 5
+  parties: 9

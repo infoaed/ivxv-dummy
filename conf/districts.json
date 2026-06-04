@@ -1,0 +1,24 @@
+{
+  "election": "DUMMY",
+  "regions": {
+    "0000": {
+      "parish": "Ainus asula",
+      "county": "Ainus maakond",
+      "state": "Eesti Vabariik"
+    }
+  },
+  "districts": {
+    "0000.1": {
+      "name": "Esimene ringkond",
+      "parish": [
+        "0000"
+      ]
+    },
+    "0000.2": {
+      "name": "Teine ringkond",
+      "parish": [
+        "0000"
+      ]
+    }
+  }
+}

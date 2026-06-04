@@ -20,7 +20,7 @@ digidoc-tool create --file=out-4/DUMMY-bb-4.json.sha256sum out-4/DUMMY-bb-4.json
 cat decout/DUMMY.question-DUMMY.tally
 ```
 
-## Manipulatsioonid à la Treier
+## Manipulatsioonid _à la_ Treier
 
 Vt [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja [Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna).
 

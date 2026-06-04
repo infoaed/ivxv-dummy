@@ -1,0 +1,827 @@
+2026-06-04 12:03:30,902 [main] INFO   e.ivxv.common.cli.TestContextFactory - Creating instance of overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:03:30,904 [main] INFO   ee.ivxv.common.cli.ContextFactory - !!!Using overladed context factory ee.ivxv.common.cli.TestContextFactory!!!
+2026-06-04 12:03:30,935 [main] INFO   e.ivxv.common.cli.TestContextFactory - Creating Console by overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:03:30,958 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - STARTING application 'processor'
+2026-06-04 12:03:30,959 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.ivxv.common.conf.LocaleConfLoader - Loading language properties from lang.properties
+2026-06-04 12:03:30,961 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.ivxv.common.conf.LocaleConfLoader - Loaded languages: [et]
+2026-06-04 12:03:30,982 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: *****************************************************************************
+*                           !!! HOIATUS !!!                                 *
+*                                                                           *
+* Rakendus on käivitatud arendusrežiimis ning rakenduse käitumine võib      *
+* erineda tavarežiimist.                                                    *
+* Rakenduse käivitamiseks tavarežiimis tuleb rakendus ümber kompileerida.   *
+*****************************************************************************
+
+2026-06-04 12:03:30,983 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner - Executing: checkAndSquash -c conf/certs.asice -p conf/processor.asice
+2026-06-04 12:03:30,984 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner - Application 'processor' arguments:
+2026-06-04 12:03:30,986 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   help = null
+2026-06-04 12:03:30,986 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   conf = conf/certs.asice
+2026-06-04 12:03:30,986 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   params = conf/processor.asice
+2026-06-04 12:03:30,987 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   force = null
+2026-06-04 12:03:30,987 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   quiet = null
+2026-06-04 12:03:30,987 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   lang = null
+2026-06-04 12:03:30,987 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   container_threads = null
+2026-06-04 12:03:30,987 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   threads = null
+2026-06-04 12:03:30,987 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - Starting tool 'checkAndSquash', app-threads: 5, container-threads: 0
+2026-06-04 12:03:31,617 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 1
+2026-06-04 12:03:31,618 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:03:33,791 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.v.SignatureValidationContext - POE extraction is skipped for untrusted timestamp : T-D42D4ACB88B7E106E24502EEE740873562C3CB1283F0ED4F844DA07D99089B60.
+2026-06-04 12:03:33,870 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:03:33,890 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:33,898 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:03:33,917 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:33,922 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:03:33,928 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:33,952 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:03:33,952 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:03:33,973 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource ivxv.properties from container conf/certs.asice
+2026-06-04 12:03:33,974 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni laadimine failist conf/certs.asice
+2026-06-04 12:03:33,975 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate EE-GovCA2018.pem.crt
+2026-06-04 12:03:33,975 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource EE-GovCA2018.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,979 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID2018.pem.crt
+2026-06-04 12:03:33,979 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID2018.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,980 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID-SK_2015.pem.crt
+2026-06-04 12:03:33,981 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID-SK_2015.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,984 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate EID_Q_2024E.pem.crt
+2026-06-04 12:03:33,984 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource EID_Q_2024E.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,986 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_OCSP_RESPONDER_2011.pem.crt
+2026-06-04 12:03:33,986 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_OCSP_RESPONDER_2011.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,988 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2019.pem.crt
+2026-06-04 12:03:33,988 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2019.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,989 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2020.pem.crt
+2026-06-04 12:03:33,989 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2020.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,990 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2021.pem.crt
+2026-06-04 12:03:33,990 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2021.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,991 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2023.pem.crt
+2026-06-04 12:03:33,992 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2023.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,993 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2025E.pem.crt
+2026-06-04 12:03:33,993 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2025E.pem.crt from container conf/certs.asice
+2026-06-04 12:03:33,994 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:03:33,995 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2026E.pem.crt from container conf/certs.asice
+2026-06-04 12:03:34,394 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 0
+2026-06-04 12:03:34,394 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.ivxv.common.cli.TestContextFactory - Creating Bbox by overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:03:34,395 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:03:34,771 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:03:34,777 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:34,783 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:03:34,783 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:03:35,119 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:35,970 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja kontrollimine
+2026-06-04 12:03:35,971 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja on andnud MÄRT PÕDER
+2026-06-04 12:03:35,972 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja andmise aeg on 03.06.2026 18:34
+2026-06-04 12:03:35,972 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkiri on korrektne ja kehtiv
+2026-06-04 12:03:35,973 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:35,973 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite laadimine failist conf/processor.asice
+2026-06-04 12:03:35,973 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/processor.asice) called
+2026-06-04 12:03:36,256 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:36,261 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/processor.asice, files: processor.yaml
+2026-06-04 12:03:36,261 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/processor.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:03:36,396 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:36,529 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja kontrollimine
+2026-06-04 12:03:36,530 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja on andnud MÄRT PÕDER
+2026-06-04 12:03:36,532 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja andmise aeg on 03.06.2026 20:47
+2026-06-04 12:03:36,533 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkiri on korrektne ja kehtiv
+2026-06-04 12:03:36,536 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: ballotbox, value: ../votes.zip (class java.lang.String)
+2026-06-04 12:03:36,536 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: ballotbox_checksum, value: ../votes.zip.sha256sum.asice (class java.lang.String)
+2026-06-04 12:03:36,537 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: districts, value: districts.asice (class java.lang.String)
+2026-06-04 12:03:36,537 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: tskey, value: ts.pem (class java.lang.String)
+2026-06-04 12:03:36,563 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: vlkey, value: vl_pub.pem (class java.lang.String)
+2026-06-04 12:03:36,563 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: voterlists, value: [{path=voterlist.txt, signature=voterlist.txt.signature}] (class java.util.ArrayList)
+2026-06-04 12:03:36,564 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: path, value: voterlist.txt (class java.lang.String)
+2026-06-04 12:03:36,565 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: signature, value: voterlist.txt.signature (class java.lang.String)
+2026-06-04 12:03:36,565 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: election_start, value: Mon Oct 13 06:00:00 EEST 2025 (class java.util.Date)
+2026-06-04 12:03:36,575 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: enckey, value: ../initout/DUMMY-pub.pem (class java.lang.String)
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.YamlData - Path: checkAndSquash, name: out, value: ../out-2 (class java.lang.String)
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner - Tool 'checkAndSquash' arguments:
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   ballotbox = conf/../votes.zip
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   ballotbox_checksum = conf/../votes.zip.sha256sum.asice
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   signed_ballot_max_size_bytes = null
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   districts = conf/districts.asice
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   registrationlist = null
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   registrationlist_checksum = null
+2026-06-04 12:03:36,576 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   tskey = ee.ivxv.common.crypto.CryptoUtil$PublicKeyHolder@50ab56e2
+2026-06-04 12:03:36,577 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   vlkey = ee.ivxv.common.crypto.CryptoUtil$PublicKeyHolder@7b5b5bfe
+2026-06-04 12:03:36,577 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   voterlists:
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -     path = conf/voterlist.txt
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -     signature = conf/voterlist.txt.signature
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -     skip_cmd = null
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   districts_mapping = null
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   election_start = 2025-10-13T03:00:00Z
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   voterforeignehak = null
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   enckey = conf/../initout/DUMMY-pub.pem
+2026-06-04 12:03:36,579 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 ee.ivxv.common.cli.AppRunner -   out = conf/../out-2
+2026-06-04 12:03:36,582 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:36,583 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja laadimine failist 'conf/districts.asice'
+2026-06-04 12:03:36,583 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/districts.asice) called
+2026-06-04 12:03:36,735 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:36,738 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/districts.asice, files: districts.json
+2026-06-04 12:03:36,738 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/districts.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:03:36,853 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:36,964 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja kontrollimine
+2026-06-04 12:03:36,965 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja on andnud MÄRT PÕDER
+2026-06-04 12:03:36,967 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja andmise aeg on 06.02.2026 00:52
+2026-06-04 12:03:36,967 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkiri on korrektne ja kehtiv
+2026-06-04 12:03:36,990 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekiri on laaditud
+2026-06-04 12:03:36,992 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirjas on 2 ringkonda
+2026-06-04 12:03:36,992 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Valimiste identifikaator on DUMMY
+2026-06-04 12:03:36,993 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:36,996 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Loen valijate nimekirju
+2026-06-04 12:03:37,000 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:37,000 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Loetud:
+2026-06-04 12:03:37,115 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Valijate nimekiri: voterlist.txt
+2026-06-04 12:03:37,115 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/../votes.zip.sha256sum.asice) called
+2026-06-04 12:03:37,115 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]:   Tüüp: 0
+2026-06-04 12:03:37,115 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]:   Lisatud: 4
+2026-06-04 12:03:37,115 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]:   Eemaldatud: 0
+2026-06-04 12:03:37,116 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:37,116 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:37,116 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma laadimine failist 'conf/../votes.zip.sha256sum.asice'
+2026-06-04 12:03:37,275 [main] WARN  SID=6q48qn133mi3r3a8t24pi0g8m5 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:37,281 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/../votes.zip.sha256sum.asice, files: votes.zip.sha256sum
+2026-06-04 12:03:37,282 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.c.bdoc.BdocContainerReader - container conf/../votes.zip.sha256sum.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:03:37,390 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:37,475 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma on laaditud
+2026-06-04 12:03:37,476 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja kontrollimine
+2026-06-04 12:03:37,479 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja on andnud MÄRT PÕDER
+2026-06-04 12:03:37,479 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja andmise aeg on 03.06.2026 20:12
+2026-06-04 12:03:37,479 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkiri on korrektne ja kehtiv
+2026-06-04 12:03:37,479 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma arvutamine failist 'conf/../votes.zip'
+2026-06-04 12:03:37,485 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.bbox.impl.BboxHelperImpl - Comparing checksum1 8c9a061cf74ec997572b9b5f8d96a1d26834e436858142f2636deb7f27f42d18
+2026-06-04 12:03:37,485 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.bbox.impl.BboxHelperImpl - Comparing checksum2 8c9a061cf74ec997572b9b5f8d96a1d26834e436858142f2636deb7f27f42d18
+2026-06-04 12:03:37,485 [main] DEBUG SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.bbox.impl.BboxHelperImpl - Result: true
+2026-06-04 12:03:37,486 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti arvutatud kontrollsumma klapib allkirjastatud kontrollsummaga
+2026-06-04 12:03:37,491 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:37,492 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti laadimine failist 'conf/../votes.zip'
+2026-06-04 12:03:37,502 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.c.s.bbox.impl.IvxvBboxLoader - ZipBboxLoader instantiated with thread count 5 and max signed ballot size of 32768 bytes
+2026-06-04 12:03:37,503 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - IvxvBboxLoader #BALLOTS: 21
+2026-06-04 12:03:37,503 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - IvxvBboxLoader     TIME: 9 ms
+2026-06-04 12:03:37,503 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - IvxvBboxLoader #Ballots: 21
+2026-06-04 12:03:37,503 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - IvxvBboxLoader #Invalid: 0
+2026-06-04 12:03:37,503 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskast on laaditud
+2026-06-04 12:03:37,504 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liigi kontrollimine
+2026-06-04 12:03:37,505 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liik on "Korrastamata e-valimiskast"
+2026-06-04 12:03:37,506 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kogumisteenus andis e-valimiskasti koosseisus üle 21 häält
+2026-06-04 12:03:37,506 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti andmetervikluse kontrollimine
+2026-06-04 12:03:37,513 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - IntegrityCheckedImpl #BALLOTS: 21
+2026-06-04 12:03:37,513 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - IntegrityCheckedImpl     TIME: 7 ms
+2026-06-04 12:03:37,513 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - IntegrityCheckedImpl #Ballots: 21
+2026-06-04 12:03:37,513 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - IntegrityCheckedImpl #Invalid: 0
+2026-06-04 12:03:37,516 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis sisalduvad andmed on terviklikud
+2026-06-04 12:03:37,516 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis on 21 kvalifitseerimiseks sobivat häält
+2026-06-04 12:03:37,516 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis sisalduvate häälte digiallkirja vormingule vastavuse kontrollimine
+2026-06-04 12:03:37,525 [pool-4-thread-1] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 50201022754/20260211171354000+0300 key: 5f349136289ac898bb4ce601c1ebdca3ad33e6895a5a0e76d8c9f9fd79818b09
+2026-06-04 12:03:37,526 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:37,526 [pool-4-thread-2] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207195426000+0300 key: c60ae8234dc85e69ee946a2b37c8ebec34df0b939183d858f0c814d86e285d91
+2026-06-04 12:03:37,528 [pool-4-thread-3] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207200527000+0300 key: 3e05fc99b26a019f3a6fe3712b8b3f27bbc31df08c098e3a44a642f4959355f8
+2026-06-04 12:03:37,529 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:37,529 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:37,531 [pool-4-thread-4] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37909110298/20260603164101000+0300 key: dbe625372235607b041aabe33035f8b68e8a42854f997ab31a3459467669805a
+2026-06-04 12:03:37,532 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:37,536 [pool-4-thread-5] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 50201022754/20260211171243000+0300 key: d2fc1d4e5e2e99d191a9e85a1d6f61974d33276de4fc845609830551e331b1cb
+2026-06-04 12:03:37,537 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:37,543 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207195426000+0300.bdoc) called
+2026-06-04 12:03:37,546 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 50201022754/20260211171243000+0300.bdoc) called
+2026-06-04 12:03:37,547 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207200527000+0300.bdoc) called
+2026-06-04 12:03:37,547 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37909110298/20260603164101000+0300.bdoc) called
+2026-06-04 12:03:37,548 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 50201022754/20260211171354000+0300.bdoc) called
+2026-06-04 12:03:37,943 [pool-4-thread-2] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:37,944 [pool-4-thread-3] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:37,957 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207200527000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:37,957 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207200527000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:37,960 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207195426000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:37,960 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207195426000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:37,972 [pool-4-thread-1] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:37,986 [pool-4-thread-4] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:03:37,990 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171354000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:37,990 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171354000+0300.bdoc, signers: SERIALNUMBER=PNOEE-50201022754, GIVENNAME=RONALD, SURNAME=JUDIN, CN="JUDIN,RONALD,50201022754", C=EE
+2026-06-04 12:03:37,994 [pool-4-thread-5] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:38,003 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37909110298/20260603164101000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,003 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37909110298/20260603164101000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:03:38,006 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171243000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,006 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171243000+0300.bdoc, signers: SERIALNUMBER=PNOEE-50201022754, GIVENNAME=RONALD, SURNAME=JUDIN, CN="JUDIN,RONALD,50201022754", C=EE
+2026-06-04 12:03:38,202 [pool-3-thread-4] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:38,244 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:38,246 [pool-3-thread-2] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:38,260 [pool-3-thread-5] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:38,292 [pool-3-thread-3] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:38,409 [pool-4-thread-3] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 50201022754/20260211171333000+0300 key: dd5d4e58336e764334c014828e52999d94fb75e38a7d6be4bdccc949b3e2c730
+2026-06-04 12:03:38,409 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:38,408 [pool-4-thread-4] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207200429000+0300 key: 79a0b864c1be593ff094f8d2b97bc9984e465f0154eae56831f2d91f817a4a17
+2026-06-04 12:03:38,412 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:38,416 [pool-4-thread-5] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 38106104710/20260206093710000+0300 key: f24c47f2c98eb2e5563c2aaa81e51a37dd80df3605a78038def7494da1e894d3
+2026-06-04 12:03:38,417 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:38,419 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207200429000+0300.bdoc) called
+2026-06-04 12:03:38,419 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 50201022754/20260211171333000+0300.bdoc) called
+2026-06-04 12:03:38,427 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 38106104710/20260206093710000+0300.bdoc) called
+2026-06-04 12:03:38,450 [pool-4-thread-1] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 38106104710/20260206100151000+0300 key: 4a442ce52e953d26d7e71eb567a8c9f3c31e314e97c8d16826dbe66f95169be0
+2026-06-04 12:03:38,450 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:38,453 [pool-4-thread-2] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 38106104710/20260206095942000+0300 key: 15fae4ad6aed78627cebf9700000c816ed24b8a2b9709678f4597c00aecf7768
+2026-06-04 12:03:38,454 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:38,461 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 38106104710/20260206095942000+0300.bdoc) called
+2026-06-04 12:03:38,461 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 38106104710/20260206100151000+0300.bdoc) called
+2026-06-04 12:03:38,728 [pool-4-thread-4] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:38,735 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207200429000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,736 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207200429000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:38,757 [pool-4-thread-5] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:38,759 [pool-4-thread-3] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:38,760 [pool-4-thread-1] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:38,764 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206093710000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,764 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206093710000+0300.bdoc, signers: SERIALNUMBER=PNOEE-38106104710, GIVENNAME=KASPAR, SURNAME=KARTANAS, CN="KARTANAS,KASPAR,38106104710", C=EE
+2026-06-04 12:03:38,764 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206100151000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,764 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206100151000+0300.bdoc, signers: SERIALNUMBER=PNOEE-38106104710, GIVENNAME=KASPAR, SURNAME=KARTANAS, CN="KARTANAS,KASPAR,38106104710", C=EE
+2026-06-04 12:03:38,766 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171333000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,766 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171333000+0300.bdoc, signers: SERIALNUMBER=PNOEE-50201022754, GIVENNAME=RONALD, SURNAME=JUDIN, CN="JUDIN,RONALD,50201022754", C=EE
+2026-06-04 12:03:38,776 [pool-4-thread-2] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:38,780 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206095942000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:38,780 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206095942000+0300.bdoc, signers: SERIALNUMBER=PNOEE-38106104710, GIVENNAME=KASPAR, SURNAME=KARTANAS, CN="KARTANAS,KASPAR,38106104710", C=EE
+2026-06-04 12:03:38,928 [pool-3-thread-2] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:38,970 [pool-3-thread-4] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,009 [pool-3-thread-5] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,018 [pool-3-thread-3] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,021 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,103 [pool-4-thread-4] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 38106104710/20260206100040000+0300 key: 42e642b6b2f37e447d3a0539e01a62d84f13b27d44d1fe87bd57870fac6798ef
+2026-06-04 12:03:39,103 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,106 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 38106104710/20260206100040000+0300.bdoc) called
+2026-06-04 12:03:39,171 [pool-4-thread-5] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207195113000+0300 key: 9ce54472f9dc5a53ae73e5b8093a711f69ca8fcd9b22e97d66abf2c568e4f815
+2026-06-04 12:03:39,171 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,177 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207195113000+0300.bdoc) called
+2026-06-04 12:03:39,194 [pool-4-thread-2] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207200647000+0300 key: aaa0e60bff57a4ae6ddfdd6dc2257e0a2f20fedd6cbdba511b2fb065726f31f4
+2026-06-04 12:03:39,194 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,197 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207200647000+0300.bdoc) called
+2026-06-04 12:03:39,219 [pool-4-thread-3] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207203649000+0300 key: b04e0b530b28ebfc415b5dabfd0bebbae7fa02754d804a0a688a688860b9d747
+2026-06-04 12:03:39,223 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,224 [pool-4-thread-1] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207203742000+0300 key: 45de264ccbb3ceac2f419ecf7aa43b02ed5437e3e38a3708a0a6c5bdb79ab684
+2026-06-04 12:03:39,224 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,229 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207203649000+0300.bdoc) called
+2026-06-04 12:03:39,233 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207203742000+0300.bdoc) called
+2026-06-04 12:03:39,357 [pool-4-thread-2] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:39,366 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207200647000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:39,366 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207200647000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:39,399 [pool-4-thread-4] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:39,406 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206100040000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:39,409 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206100040000+0300.bdoc, signers: SERIALNUMBER=PNOEE-38106104710, GIVENNAME=KASPAR, SURNAME=KARTANAS, CN="KARTANAS,KASPAR,38106104710", C=EE
+2026-06-04 12:03:39,519 [pool-4-thread-3] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:39,520 [pool-4-thread-5] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:39,526 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207203649000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:39,526 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207203649000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:39,530 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207195113000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:39,530 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207195113000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:39,539 [pool-4-thread-1] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:39,542 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207203742000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:39,542 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207203742000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:39,547 [pool-3-thread-5] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,617 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,654 [pool-4-thread-2] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 50201022754/20260211171315000+0300 key: 7e4c861a3f523020cbde66172dba1353a8f18acc46fe009aa837e39b9497ea6c
+2026-06-04 12:03:39,654 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,660 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 50201022754/20260211171315000+0300.bdoc) called
+2026-06-04 12:03:39,714 [pool-3-thread-2] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,759 [pool-3-thread-3] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,762 [pool-4-thread-4] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 38106104710/20260206095840000+0300 key: d29945790c9e40a0e27fa01ac2a730a4b1ee5d71b743cfa88faf61df9192fd04
+2026-06-04 12:03:39,762 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,759 [pool-3-thread-4] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:39,768 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 38106104710/20260206095840000+0300.bdoc) called
+2026-06-04 12:03:39,881 [pool-4-thread-2] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:39,885 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171315000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:39,885 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171315000+0300.bdoc, signers: SERIALNUMBER=PNOEE-50201022754, GIVENNAME=RONALD, SURNAME=JUDIN, CN="JUDIN,RONALD,50201022754", C=EE
+2026-06-04 12:03:39,886 [pool-4-thread-1] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 50201022754/20260211171410000+0300 key: 015f13bea7b514edd56f036b9a2297a87ebf1763204fb5597f311c555307b760
+2026-06-04 12:03:39,886 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,892 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 50201022754/20260211171410000+0300.bdoc) called
+2026-06-04 12:03:39,903 [pool-4-thread-3] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 50201022754/20260211171427000+0300 key: e96852c63d39676bfb8a09c94c18ac5d9999f822543f9997eb2e51fcf700110f
+2026-06-04 12:03:39,903 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,905 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 50201022754/20260211171427000+0300.bdoc) called
+2026-06-04 12:03:39,926 [pool-4-thread-5] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 37702282719/20260207195630000+0300 key: 1db3620c2acb0ddbfe8a04c80f6d93ad807c2e43db578525563d51677a3ae532
+2026-06-04 12:03:39,927 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:39,929 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 37702282719/20260207195630000+0300.bdoc) called
+2026-06-04 12:03:40,000 [pool-4-thread-4] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:40,008 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206095840000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:40,008 [pool-4-thread-4] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206095840000+0300.bdoc, signers: SERIALNUMBER=PNOEE-38106104710, GIVENNAME=KASPAR, SURNAME=KARTANAS, CN="KARTANAS,KASPAR,38106104710", C=EE
+2026-06-04 12:03:40,151 [pool-3-thread-4] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:40,168 [pool-4-thread-1] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:40,174 [pool-4-thread-3] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:40,178 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171427000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:40,178 [pool-4-thread-3] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171427000+0300.bdoc, signers: SERIALNUMBER=PNOEE-50201022754, GIVENNAME=RONALD, SURNAME=JUDIN, CN="JUDIN,RONALD,50201022754", C=EE
+2026-06-04 12:03:40,183 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171410000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:40,183 [pool-4-thread-1] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 50201022754/20260211171410000+0300.bdoc, signers: SERIALNUMBER=PNOEE-50201022754, GIVENNAME=RONALD, SURNAME=JUDIN, CN="JUDIN,RONALD,50201022754", C=EE
+2026-06-04 12:03:40,204 [pool-3-thread-3] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:40,256 [pool-4-thread-5] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:40,260 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207195630000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:40,260 [pool-4-thread-5] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 37702282719/20260207195630000+0300.bdoc, signers: SERIALNUMBER=PNOEE-37702282719, GIVENNAME=ANDRES, SURNAME=ALLA, CN="ALLA,ANDRES,37702282719", C=EE
+2026-06-04 12:03:40,320 [pool-4-thread-2] INFO   e.i.c.s.bbox.impl.IvxvBboxLoader - BALLOT-KEY ballot: 38106104710/20260206095348000+0300 key: 78706fbc68f47e316f8e4157a1b5b0a01bd630d51e1d8afa3f102a6067c93099
+2026-06-04 12:03:40,320 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - combine(): combining container data
+2026-06-04 12:03:40,324 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - readContainer(<InputStream>, 38106104710/20260206095348000+0300.bdoc) called
+2026-06-04 12:03:40,402 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:40,411 [pool-3-thread-2] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:40,421 [pool-3-thread-4] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:40,450 [pool-4-thread-2] WARN   e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:03:40,457 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206095348000+0300.bdoc, files: DUMMY.question-DUMMY.ballot
+2026-06-04 12:03:40,457 [pool-4-thread-2] DEBUG  e.i.c.s.c.bdoc.BdocContainerReader - container 38106104710/20260206095348000+0300.bdoc, signers: SERIALNUMBER=PNOEE-38106104710, GIVENNAME=KASPAR, SURNAME=KARTANAS, CN="KARTANAS,KASPAR,38106104710", C=EE
+2026-06-04 12:03:40,590 [pool-3-thread-3] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:03:40,667 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - BallotsCheckedImpl #BALLOTS: 21
+2026-06-04 12:03:40,667 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - BallotsCheckedImpl     TIME: 3153 ms
+2026-06-04 12:03:40,667 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - BallotsCheckedImpl #Ballots: 21
+2026-06-04 12:03:40,668 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - BallotsCheckedImpl #Invalid: 0
+2026-06-04 12:03:40,669 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis sisalduvate häälte koguarv: 21
+2026-06-04 12:03:40,670 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis sisalduvate korrektse allkirjaga häälte arv: 21
+2026-06-04 12:03:40,670 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis sisalduvate vigase allkirjaga häälte arv: 0
+2026-06-04 12:03:40,670 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kõik e-valimiskastis sisalduvad hääled vastavad digiallkirja vormingule
+2026-06-04 12:03:40,671 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,671 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: *****************************************************************************
+*                           !!! HOIATUS !!!                                 *
+*                                                                           *
+* Rakenduse sisendandmetest puuduvad registreerimisandmed.                  *
+* Ei saa kontrollida kõikide registreeritud häälte olemasolu! Häälele       *
+* vastava registreerimispäringu puudumist ignoreeritakse.                   *
+*****************************************************************************
+2026-06-04 12:03:40,672 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,672 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Grupeerin e-hääli valijate järgi
+2026-06-04 12:03:40,696 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - BboxLoaderResultImpl #BALLOTS: 21
+2026-06-04 12:03:40,696 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - BboxLoaderResultImpl     TIME: 27 ms
+2026-06-04 12:03:40,696 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - BboxLoaderResultImpl #Ballots: 21
+2026-06-04 12:03:40,696 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.p.tool.CheckAndSquashTool - BboxLoaderResultImpl #Invalid: 0
+2026-06-04 12:03:40,703 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis sisalduvate kontrollitud häälte koguarv: 21
+2026-06-04 12:03:40,710 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,711 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan Log1 failid
+2026-06-04 12:03:40,714 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-2/DUMMY.question-DUMMY.check.log1
+2026-06-04 12:03:40,723 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,723 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Eemaldan korduvad hääled
+2026-06-04 12:03:40,727 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,728 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liik on "Korduvhäältest puhastatud e-valimiskast"
+2026-06-04 12:03:40,728 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis on 4 kvalifitseerimiseks sobivat häält
+2026-06-04 12:03:40,728 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,728 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kontrollin krüptogrammide korrektsust
+2026-06-04 12:03:40,739 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,739 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liik on "Korduvhäältest puhastatud korrektsete sedelitega e-valimiskast"
+2026-06-04 12:03:40,739 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis on 4 kvalifitseerimiseks sobivat häält
+2026-06-04 12:03:40,740 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:40,740 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan e-hääletanute nimekirja
+2026-06-04 12:03:41,058 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-2/DUMMY-ivoterlist.json
+2026-06-04 12:03:41,058 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-2/DUMMY-ivoterlist.pdf
+2026-06-04 12:03:41,058 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:41,058 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan tühistamiste ja ennistamiste aruande
+2026-06-04 12:03:41,060 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-2/DUMMY-revocation-report.csv
+2026-06-04 12:03:41,060 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:41,060 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan tühistamiste ja ennistamiste aruande
+2026-06-04 12:03:41,061 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-2/DUMMY-revocation-report.csv.anonymous
+2026-06-04 12:03:41,064 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:41,064 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan Log2 failid
+2026-06-04 12:03:41,064 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-2/DUMMY.question-DUMMY.squash.log2
+2026-06-04 12:03:41,064 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:03:41,065 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Korduvhäältest puhastatud korrektsete sedelitega e-valimiskasti salvestamine faili conf/../out-2/DUMMY-bb-2.json
+2026-06-04 12:03:41,097 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Korduvhäältest puhastatud korrektsete sedelitega e-valimiskast on salvestatud
+2026-06-04 12:03:41,097 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma salvestamine faili conf/../out-2/DUMMY-bb-2.json.sha256sum
+2026-06-04 12:03:41,098 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma on salvestatud
+2026-06-04 12:03:41,099 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Töötlemisrakendus lõpetas töö ilma vigadeta
+2026-06-04 12:03:41,099 [main] INFO  SID=6q48qn133mi3r3a8t24pi0g8m5 e.i.common.util.log.PerformanceLog - FINISHED application 'processor', TIME: 10142 ms, SUCCESS: true
+2026-06-04 12:04:05,744 [main] INFO   e.ivxv.common.cli.TestContextFactory - Creating instance of overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:04:05,746 [main] INFO   ee.ivxv.common.cli.ContextFactory - !!!Using overladed context factory ee.ivxv.common.cli.TestContextFactory!!!
+2026-06-04 12:04:05,777 [main] INFO   e.ivxv.common.cli.TestContextFactory - Creating Console by overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:04:05,800 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.i.common.util.log.PerformanceLog - STARTING application 'processor'
+2026-06-04 12:04:05,801 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.ivxv.common.conf.LocaleConfLoader - Loading language properties from lang.properties
+2026-06-04 12:04:05,803 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.ivxv.common.conf.LocaleConfLoader - Loaded languages: [et]
+2026-06-04 12:04:05,828 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner - Executing: revokeAndAnonymize -c conf/certs.asice -p conf/processor.asice
+2026-06-04 12:04:05,829 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: *****************************************************************************
+*                           !!! HOIATUS !!!                                 *
+*                                                                           *
+* Rakendus on käivitatud arendusrežiimis ning rakenduse käitumine võib      *
+* erineda tavarežiimist.                                                    *
+* Rakenduse käivitamiseks tavarežiimis tuleb rakendus ümber kompileerida.   *
+*****************************************************************************
+
+2026-06-04 12:04:05,830 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner - Application 'processor' arguments:
+2026-06-04 12:04:05,831 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   help = null
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   conf = conf/certs.asice
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   params = conf/processor.asice
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   force = null
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   quiet = null
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   lang = null
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   container_threads = null
+2026-06-04 12:04:05,832 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   threads = null
+2026-06-04 12:04:05,833 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.i.common.util.log.PerformanceLog - Starting tool 'revokeAndAnonymize', app-threads: 5, container-threads: 0
+2026-06-04 12:04:06,043 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 1
+2026-06-04 12:04:06,044 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:04:08,566 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.v.SignatureValidationContext - POE extraction is skipped for untrusted timestamp : T-D42D4ACB88B7E106E24502EEE740873562C3CB1283F0ED4F844DA07D99089B60.
+2026-06-04 12:04:08,572 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:08,633 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:08,661 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:08,664 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:08,675 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:08,678 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:08,702 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:04:08,703 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:04:08,724 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni laadimine failist conf/certs.asice
+2026-06-04 12:04:08,724 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource ivxv.properties from container conf/certs.asice
+2026-06-04 12:04:08,725 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate EE-GovCA2018.pem.crt
+2026-06-04 12:04:08,726 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource EE-GovCA2018.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,729 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID2018.pem.crt
+2026-06-04 12:04:08,730 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID2018.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,731 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID-SK_2015.pem.crt
+2026-06-04 12:04:08,731 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID-SK_2015.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,734 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate EID_Q_2024E.pem.crt
+2026-06-04 12:04:08,734 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource EID_Q_2024E.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,736 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_OCSP_RESPONDER_2011.pem.crt
+2026-06-04 12:04:08,736 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_OCSP_RESPONDER_2011.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,738 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2019.pem.crt
+2026-06-04 12:04:08,738 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2019.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,739 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2020.pem.crt
+2026-06-04 12:04:08,739 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2020.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,740 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2021.pem.crt
+2026-06-04 12:04:08,740 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2021.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,741 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2023.pem.crt
+2026-06-04 12:04:08,742 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2023.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,743 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2025E.pem.crt
+2026-06-04 12:04:08,743 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2025E.pem.crt from container conf/certs.asice
+2026-06-04 12:04:08,744 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:04:08,744 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2026E.pem.crt from container conf/certs.asice
+2026-06-04 12:04:09,170 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 0
+2026-06-04 12:04:09,170 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.ivxv.common.cli.TestContextFactory - Creating Bbox by overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:04:09,172 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:04:09,586 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:09,588 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:09,594 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:04:09,595 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:04:09,887 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:04:10,638 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja kontrollimine
+2026-06-04 12:04:10,639 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja on andnud MÄRT PÕDER
+2026-06-04 12:04:10,640 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja andmise aeg on 03.06.2026 18:34
+2026-06-04 12:04:10,641 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkiri on korrektne ja kehtiv
+2026-06-04 12:04:10,642 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:10,642 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite laadimine failist conf/processor.asice
+2026-06-04 12:04:10,642 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/processor.asice) called
+2026-06-04 12:04:10,892 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:10,897 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/processor.asice, files: processor.yaml
+2026-06-04 12:04:10,897 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/processor.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:04:11,048 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:04:11,150 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja kontrollimine
+2026-06-04 12:04:11,150 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja on andnud MÄRT PÕDER
+2026-06-04 12:04:11,151 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja andmise aeg on 03.06.2026 20:47
+2026-06-04 12:04:11,152 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkiri on korrektne ja kehtiv
+2026-06-04 12:04:11,157 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.YamlData - Path: revokeAndAnonymize, name: ballotbox, value: ../out-2/DUMMY-bb-2.json (class java.lang.String)
+2026-06-04 12:04:11,158 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.YamlData - Path: revokeAndAnonymize, name: ballotbox_checksum, value: ../out-2/DUMMY-bb-2.json.sha256sum.asice (class java.lang.String)
+2026-06-04 12:04:11,158 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.YamlData - Path: revokeAndAnonymize, name: districts, value: districts.asice (class java.lang.String)
+2026-06-04 12:04:11,158 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.YamlData - Path: revokeAndAnonymize, name: revocationlists, value: null (null)
+2026-06-04 12:04:11,159 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.YamlData - Path: revokeAndAnonymize, name: out, value: ../out-4 (class java.lang.String)
+2026-06-04 12:04:11,159 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner - Tool 'revokeAndAnonymize' arguments:
+2026-06-04 12:04:11,160 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   ballotbox = conf/../out-2/DUMMY-bb-2.json
+2026-06-04 12:04:11,160 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   ballotbox_checksum = conf/../out-2/DUMMY-bb-2.json.sha256sum.asice
+2026-06-04 12:04:11,160 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   districts = conf/districts.asice
+2026-06-04 12:04:11,160 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   revocationlists = []
+2026-06-04 12:04:11,160 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj ee.ivxv.common.cli.AppRunner -   out = conf/../out-4
+2026-06-04 12:04:11,163 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:11,163 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/../out-2/DUMMY-bb-2.json.sha256sum.asice) called
+2026-06-04 12:04:11,165 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma laadimine failist 'conf/../out-2/DUMMY-bb-2.json.sha256sum.asice'
+2026-06-04 12:04:11,351 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:11,355 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/../out-2/DUMMY-bb-2.json.sha256sum.asice, files: DUMMY-bb-2.json.sha256sum
+2026-06-04 12:04:11,355 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/../out-2/DUMMY-bb-2.json.sha256sum.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:04:11,491 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:04:11,622 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma on laaditud
+2026-06-04 12:04:11,622 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja kontrollimine
+2026-06-04 12:04:11,622 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja on andnud MÄRT PÕDER
+2026-06-04 12:04:11,623 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja andmise aeg on 04.06.2026 12:03
+2026-06-04 12:04:11,624 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.bbox.impl.BboxHelperImpl - Comparing checksum1 d4ab31df126b32f5deb5392cb25636c845e302c64cb0cf374900d70c09c1f39c
+2026-06-04 12:04:11,625 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.bbox.impl.BboxHelperImpl - Comparing checksum2 d4ab31df126b32f5deb5392cb25636c845e302c64cb0cf374900d70c09c1f39c
+2026-06-04 12:04:11,625 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.bbox.impl.BboxHelperImpl - Result: true
+2026-06-04 12:04:11,626 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkiri on korrektne ja kehtiv
+2026-06-04 12:04:11,626 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma arvutamine failist 'conf/../out-2/DUMMY-bb-2.json'
+2026-06-04 12:04:11,626 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti arvutatud kontrollsumma klapib allkirjastatud kontrollsummaga
+2026-06-04 12:04:11,627 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:11,627 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti laadimine failist 'conf/../out-2/DUMMY-bb-2.json'
+2026-06-04 12:04:11,681 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskast on laaditud
+2026-06-04 12:04:11,683 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liigi kontrollimine
+2026-06-04 12:04:11,683 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liik on "Korduvhäältest puhastatud korrektsete sedelitega e-valimiskast"
+2026-06-04 12:04:11,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis on 4 kvalifitseerimiseks sobivat häält
+2026-06-04 12:04:11,688 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/districts.asice) called
+2026-06-04 12:04:11,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:11,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja laadimine failist 'conf/districts.asice'
+2026-06-04 12:04:11,893 [main] WARN  SID=cp2pgchjcd4ns94stfre2nl9tj e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:04:11,897 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/districts.asice, files: districts.json
+2026-06-04 12:04:11,897 [main] DEBUG SID=cp2pgchjcd4ns94stfre2nl9tj e.i.c.s.c.bdoc.BdocContainerReader - container conf/districts.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:04:12,030 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:04:12,133 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja kontrollimine
+2026-06-04 12:04:12,133 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja on andnud MÄRT PÕDER
+2026-06-04 12:04:12,134 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja andmise aeg on 06.02.2026 00:52
+2026-06-04 12:04:12,134 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkiri on korrektne ja kehtiv
+2026-06-04 12:04:12,148 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekiri on laaditud
+2026-06-04 12:04:12,150 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirjas on 2 ringkonda
+2026-06-04 12:04:12,150 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Valimiste identifikaator on DUMMY
+2026-06-04 12:04:12,151 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,154 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Rakendan tühistus-/ennistusnimekirju
+2026-06-04 12:04:12,158 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,159 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liik on "Topelthääletajate häältest puhastatud e-valimiskast"
+2026-06-04 12:04:12,159 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis on 4 kvalifitseerimiseks sobivat häält
+2026-06-04 12:04:12,159 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,159 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan e-hääletanute nimekirja
+2026-06-04 12:04:12,197 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-4/DUMMY-ivoterlist.json
+2026-06-04 12:04:12,198 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,198 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan tühistamiste ja ennistamiste aruande
+2026-06-04 12:04:12,203 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-4/DUMMY-revocation-report.csv
+2026-06-04 12:04:12,203 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,203 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan tühistamiste ja ennistamiste aruande
+2026-06-04 12:04:12,203 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-4/DUMMY-revocation-report.csv.anonymous
+2026-06-04 12:04:12,207 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,207 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan Log2 failid
+2026-06-04 12:04:12,217 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,218 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan Log3 failid
+2026-06-04 12:04:12,219 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfail: conf/../out-4/DUMMY.question-DUMMY.anonymize.log3
+2026-06-04 12:04:12,220 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,220 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Anonümiseerin e-valimiskasti
+2026-06-04 12:04:12,225 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:12,225 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Anonüümistatud e-valimiskasti salvestamine faili conf/../out-4/DUMMY-bb-4.json
+2026-06-04 12:04:12,239 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Anonüümistatud e-valimiskast on salvestatud
+2026-06-04 12:04:12,243 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma salvestamine faili conf/../out-4/DUMMY-bb-4.json.sha256sum
+2026-06-04 12:04:12,243 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma on salvestatud
+2026-06-04 12:04:12,243 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Töötlemisrakendus lõpetas töö ilma vigadeta
+2026-06-04 12:04:12,244 [main] INFO  SID=cp2pgchjcd4ns94stfre2nl9tj e.i.common.util.log.PerformanceLog - FINISHED application 'processor', TIME: 6445 ms, SUCCESS: true
+2026-06-04 12:04:35,575 [main] INFO   ee.ivxv.common.cli.ContextFactory - Overloaded context factory class ee.ivxv.common.cli.TestContextFactory not found
+2026-06-04 12:04:35,577 [main] INFO   ee.ivxv.common.cli.ContextFactory - Using standard context factory ee.ivxv.common.cli.ContextFactory
+2026-06-04 12:04:35,631 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.i.common.util.log.PerformanceLog - STARTING application 'audit'
+2026-06-04 12:04:35,633 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.ivxv.common.conf.LocaleConfLoader - Loading language properties from lang.properties
+2026-06-04 12:04:35,634 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.ivxv.common.conf.LocaleConfLoader - Loaded languages: [et]
+2026-06-04 12:04:35,637 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner - Executing: integrity -c conf/certs.asice -p conf/auditor.asice
+2026-06-04 12:04:35,638 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner - Application 'audit' arguments:
+2026-06-04 12:04:35,639 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   help = null
+2026-06-04 12:04:35,639 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   conf = conf/certs.asice
+2026-06-04 12:04:35,640 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   params = conf/auditor.asice
+2026-06-04 12:04:35,640 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   force = null
+2026-06-04 12:04:35,640 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   quiet = null
+2026-06-04 12:04:35,640 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   lang = null
+2026-06-04 12:04:35,640 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   container_threads = null
+2026-06-04 12:04:35,640 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   threads = null
+2026-06-04 12:04:35,640 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.i.common.util.log.PerformanceLog - Starting tool 'integrity', app-threads: 5, container-threads: 0
+2026-06-04 12:04:35,846 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 1
+2026-06-04 12:04:35,847 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:04:38,395 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.v.SignatureValidationContext - POE extraction is skipped for untrusted timestamp : T-D42D4ACB88B7E106E24502EEE740873562C3CB1283F0ED4F844DA07D99089B60.
+2026-06-04 12:04:38,470 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:38,488 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:38,507 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:38,510 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:38,517 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:38,519 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:38,541 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:04:38,541 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:04:38,575 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni laadimine failist conf/certs.asice
+2026-06-04 12:04:38,575 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource ivxv.properties from container conf/certs.asice
+2026-06-04 12:04:38,577 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate EE-GovCA2018.pem.crt
+2026-06-04 12:04:38,577 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource EE-GovCA2018.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,581 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID2018.pem.crt
+2026-06-04 12:04:38,581 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID2018.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,583 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID-SK_2015.pem.crt
+2026-06-04 12:04:38,583 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID-SK_2015.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,586 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate EID_Q_2024E.pem.crt
+2026-06-04 12:04:38,586 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource EID_Q_2024E.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,588 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_OCSP_RESPONDER_2011.pem.crt
+2026-06-04 12:04:38,588 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_OCSP_RESPONDER_2011.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,590 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2019.pem.crt
+2026-06-04 12:04:38,590 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2019.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,591 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2020.pem.crt
+2026-06-04 12:04:38,591 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2020.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,592 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2021.pem.crt
+2026-06-04 12:04:38,592 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2021.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,593 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2023.pem.crt
+2026-06-04 12:04:38,594 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2023.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,595 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2025E.pem.crt
+2026-06-04 12:04:38,595 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2025E.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,596 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:04:38,596 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2026E.pem.crt from container conf/certs.asice
+2026-06-04 12:04:38,664 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 0
+2026-06-04 12:04:38,666 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:04:39,079 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:39,081 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:04:39,093 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:04:39,094 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:04:39,398 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:04:40,053 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja kontrollimine
+2026-06-04 12:04:40,054 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja on andnud MÄRT PÕDER
+2026-06-04 12:04:40,055 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja andmise aeg on 03.06.2026 18:34
+2026-06-04 12:04:40,055 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkiri on korrektne ja kehtiv
+2026-06-04 12:04:40,055 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:40,055 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite laadimine failist conf/auditor.asice
+2026-06-04 12:04:40,056 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/auditor.asice) called
+2026-06-04 12:04:40,353 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:04:40,362 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - container conf/auditor.asice, files: auditor.yaml
+2026-06-04 12:04:40,362 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 e.i.c.s.c.bdoc.BdocContainerReader - container conf/auditor.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:04:40,523 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:04:40,666 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja kontrollimine
+2026-06-04 12:04:40,666 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja on andnud MÄRT PÕDER
+2026-06-04 12:04:40,666 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja andmise aeg on 03.06.2026 21:09
+2026-06-04 12:04:40,666 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkiri on korrektne ja kehtiv
+2026-06-04 12:04:40,671 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: ballotbox, value: ../votes.zip (class java.lang.String)
+2026-06-04 12:04:40,672 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: anon_bb, value: ../out-4/DUMMY-bb-4.json (class java.lang.String)
+2026-06-04 12:04:40,673 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: log_accepted, value: ../out-2/DUMMY.question-DUMMY.check.log1 (class java.lang.String)
+2026-06-04 12:04:40,673 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: log_squashed, value: ../out-2/DUMMY.question-DUMMY.squash.log2 (class java.lang.String)
+2026-06-04 12:04:40,673 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: log_revoked, value: ../out-4/DUMMY.question-DUMMY.revoke.log2 (class java.lang.String)
+2026-06-04 12:04:40,673 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: log_anonymised, value: ../out-4/DUMMY.question-DUMMY.anonymize.log3 (class java.lang.String)
+2026-06-04 12:04:40,673 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.YamlData - Path: integrity, name: bb_errors, value: ../out-2/ballotbox_errors.txt (class java.lang.String)
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner - Tool 'integrity' arguments:
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   ballotbox = conf/../votes.zip
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   anon_bb = conf/../out-4/DUMMY-bb-4.json
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   log_accepted = conf/../out-2/DUMMY.question-DUMMY.check.log1
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   log_squashed = conf/../out-2/DUMMY.question-DUMMY.squash.log2
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   log_revoked = conf/../out-4/DUMMY.question-DUMMY.revoke.log2
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   log_anonymised = conf/../out-4/DUMMY.question-DUMMY.anonymize.log3
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   bb_errors = conf/../out-2/ballotbox_errors.txt
+2026-06-04 12:04:40,674 [main] DEBUG SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.common.cli.AppRunner -   abort_early = null
+2026-06-04 12:04:40,677 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:40,680 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti laadimine failist 'conf/../votes.zip'
+2026-06-04 12:04:40,715 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskast laaditud
+2026-06-04 12:04:40,716 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:40,716 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Anonüümitud e-valimiskasti laadimine failist 'conf/../out-4/DUMMY-bb-4.json'
+2026-06-04 12:04:41,026 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Anonüümitud e-hääled laaditud
+2026-06-04 12:04:41,027 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:41,027 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti verifitseerimise logifail: conf/../out-2/DUMMY.question-DUMMY.check.log1
+2026-06-04 12:04:41,027 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Korduvhäälte tühistamise logifail: conf/../out-2/DUMMY.question-DUMMY.squash.log2
+2026-06-04 12:04:41,029 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Topelthäälte tühistamise logifail: conf/../out-4/DUMMY.question-DUMMY.revoke.log2
+2026-06-04 12:04:41,029 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-häälte anonüümimise logifail: conf/../out-4/DUMMY.question-DUMMY.anonymize.log3
+2026-06-04 12:04:41,029 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti töötlemisvigade raport: conf/../out-2/ballotbox_errors.txt
+2026-06-04 12:04:41,031 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:41,040 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.audit.tools.IntegrityTool - There are 2 ciphertext recurrences among the accepted ballots
+2026-06-04 12:04:41,040 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Vastuvõetud häälte seas on korduvaid krüptogramme
+2026-06-04 12:04:41,041 [main] WARN  SID=g30tbcnl2nnhcmomul20ad0io2 ee.ivxv.audit.tools.IntegrityTool - Recurring ballot: y8VhmeZyFAQh8ck/ri+IlehHcc8NK6mKraXW3+6SwH4=
+2026-06-04 12:04:41,044 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:41,044 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti verifitseerimise logid on terviklikud: jah
+2026-06-04 12:04:41,044 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Anonüümimise logi klapib anonüümitud e-valimiskastiga: jah
+2026-06-04 12:04:41,044 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tühistuslogid klapivad e-valimiskastidega: jah
+2026-06-04 12:04:41,045 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:04:41,046 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Auditirakendus lõpetas töö ilma vigadeta
+2026-06-04 12:04:41,047 [main] INFO  SID=g30tbcnl2nnhcmomul20ad0io2 e.i.common.util.log.PerformanceLog - FINISHED application 'audit', TIME: 5417 ms, SUCCESS: true
+2026-06-04 12:05:06,545 [main] INFO   e.ivxv.common.cli.TestContextFactory - Creating instance of overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:05:06,548 [main] INFO   ee.ivxv.common.cli.ContextFactory - !!!Using overladed context factory ee.ivxv.common.cli.TestContextFactory!!!
+2026-06-04 12:05:06,550 [main] INFO   e.ivxv.common.cli.TestContextFactory - Creating Console by overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:05:06,577 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.i.common.util.log.PerformanceLog - STARTING application 'key'
+2026-06-04 12:05:06,579 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.ivxv.common.conf.LocaleConfLoader - Loading language properties from lang.properties
+2026-06-04 12:05:06,582 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.ivxv.common.conf.LocaleConfLoader - Loaded languages: [et]
+2026-06-04 12:05:06,606 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner - Executing: decrypt -c conf/certs.asice -p conf/key.asice
+2026-06-04 12:05:06,606 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: *****************************************************************************
+*                           !!! HOIATUS !!!                                 *
+*                                                                           *
+* Rakendus on käivitatud arendusrežiimis ning rakenduse käitumine võib      *
+* erineda tavarežiimist.                                                    *
+* Rakenduse käivitamiseks tavarežiimis tuleb rakendus ümber kompileerida.   *
+*****************************************************************************
+
+2026-06-04 12:05:06,607 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner - Application 'key' arguments:
+2026-06-04 12:05:06,609 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   help = null
+2026-06-04 12:05:06,609 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   conf = conf/certs.asice
+2026-06-04 12:05:06,610 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   params = conf/key.asice
+2026-06-04 12:05:06,610 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   force = null
+2026-06-04 12:05:06,610 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   quiet = null
+2026-06-04 12:05:06,610 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   lang = null
+2026-06-04 12:05:06,610 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   container_threads = null
+2026-06-04 12:05:06,610 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   threads = null
+2026-06-04 12:05:06,611 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.i.common.util.log.PerformanceLog - Starting tool 'decrypt', app-threads: 5, container-threads: 0
+2026-06-04 12:05:06,812 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 1
+2026-06-04 12:05:06,813 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:05:08,775 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.v.SignatureValidationContext - POE extraction is skipped for untrusted timestamp : T-D42D4ACB88B7E106E24502EEE740873562C3CB1283F0ED4F844DA07D99089B60.
+2026-06-04 12:05:08,838 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:05:08,857 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.v.SignatureValidationContext - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:05:08,875 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:05:08,898 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:05:08,902 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:05:08,907 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:05:08,926 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:05:08,927 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:05:08,947 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni laadimine failist conf/certs.asice
+2026-06-04 12:05:08,948 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource ivxv.properties from container conf/certs.asice
+2026-06-04 12:05:08,949 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate EE-GovCA2018.pem.crt
+2026-06-04 12:05:08,950 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource EE-GovCA2018.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,952 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID2018.pem.crt
+2026-06-04 12:05:08,953 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID2018.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,954 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate ESTEID-SK_2015.pem.crt
+2026-06-04 12:05:08,954 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource ESTEID-SK_2015.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,957 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate EID_Q_2024E.pem.crt
+2026-06-04 12:05:08,957 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource EID_Q_2024E.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,958 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_OCSP_RESPONDER_2011.pem.crt
+2026-06-04 12:05:08,959 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_OCSP_RESPONDER_2011.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,960 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2019.pem.crt
+2026-06-04 12:05:08,961 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2019.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,961 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2020.pem.crt
+2026-06-04 12:05:08,962 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2020.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,963 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2021.pem.crt
+2026-06-04 12:05:08,963 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2021.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,964 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_AUTHORITY_2023.pem.crt
+2026-06-04 12:05:08,964 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_AUTHORITY_2023.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,965 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2025E.pem.crt
+2026-06-04 12:05:08,966 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2025E.pem.crt from container conf/certs.asice
+2026-06-04 12:05:08,967 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading certificate SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:05:08,967 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.conf.ConfLoader - Loading resource SK_TIMESTAMPING_UNIT_2026E.pem.crt from container conf/certs.asice
+2026-06-04 12:05:09,269 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - BdocContainerReader instantiated with thread count 0
+2026-06-04 12:05:09,270 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.ivxv.common.cli.TestContextFactory - Creating Bbox by overloaded context factory ee.ivxv.common.cli.TestContextFactory
+2026-06-04 12:05:09,271 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/certs.asice) called
+2026-06-04 12:05:09,659 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-95C4E7E2B5C2617E877442F4276146F8895CEE8BAA33340EFA03E45A66D62D25
+2026-06-04 12:05:09,664 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:05:09,671 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, files: EE-GovCA2018.pem.crt, EID_Q_2024E.pem.crt, ESTEID2018.pem.crt, ESTEID-SK_2015.pem.crt, ivxv.properties, SK_OCSP_RESPONDER_2011.pem.crt, SK_TIMESTAMPING_AUTHORITY_2019.pem.crt, SK_TIMESTAMPING_AUTHORITY_2020.pem.crt, SK_TIMESTAMPING_AUTHORITY_2021.pem.crt, SK_TIMESTAMPING_AUTHORITY_2023.pem.crt, SK_TIMESTAMPING_UNIT_2025E.pem.crt, SK_TIMESTAMPING_UNIT_2026E.pem.crt
+2026-06-04 12:05:09,671 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/certs.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT", C=EE
+2026-06-04 12:05:09,924 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:05:10,685 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja kontrollimine
+2026-06-04 12:05:10,686 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja on andnud MÄRT PÕDER
+2026-06-04 12:05:10,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkirja andmise aeg on 03.06.2026 18:34
+2026-06-04 12:05:10,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Konfiguratsiooni allkiri on korrektne ja kehtiv
+2026-06-04 12:05:10,689 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:10,690 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite laadimine failist conf/key.asice
+2026-06-04 12:05:10,691 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/key.asice) called
+2026-06-04 12:05:10,946 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:05:10,951 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/key.asice, files: key.yaml
+2026-06-04 12:05:10,951 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/key.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:05:11,091 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:05:11,215 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja kontrollimine
+2026-06-04 12:05:11,216 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja on andnud MÄRT PÕDER
+2026-06-04 12:05:11,216 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkirja andmise aeg on 03.06.2026 21:14
+2026-06-04 12:05:11,216 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Tööriista parameetrite allkiri on korrektne ja kehtiv
+2026-06-04 12:05:11,223 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: identifier, value: DUMMY (class java.lang.String)
+2026-06-04 12:05:11,225 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: protocol, value: {recover={threshold=5, parties=9}} (class java.util.LinkedHashMap)
+2026-06-04 12:05:11,225 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt.protocol, name: recover, value: {threshold=5, parties=9} (class java.util.LinkedHashMap)
+2026-06-04 12:05:11,225 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt.protocol.recover, name: threshold, value: 5 (class java.lang.Integer)
+2026-06-04 12:05:11,225 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt.protocol.recover, name: parties, value: 9 (class java.lang.Integer)
+2026-06-04 12:05:11,225 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: anonballotbox, value: ../out-4/DUMMY-bb-4.json (class java.lang.String)
+2026-06-04 12:05:11,226 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: anonballotbox_checksum, value: ../out-4/DUMMY-bb-4.json.sha256sum.asice (class java.lang.String)
+2026-06-04 12:05:11,226 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: candidates, value: choices.asice (class java.lang.String)
+2026-06-04 12:05:11,226 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: districts, value: districts.asice (class java.lang.String)
+2026-06-04 12:05:11,226 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: provable, value: true (class java.lang.Boolean)
+2026-06-04 12:05:11,227 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: prove_invalid, value: true (class java.lang.Boolean)
+2026-06-04 12:05:11,227 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: check_decodable, value: false (class java.lang.Boolean)
+2026-06-04 12:05:11,227 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.YamlData - Path: decrypt, name: out, value: ../decout (class java.lang.String)
+2026-06-04 12:05:11,227 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner - Tool 'decrypt' arguments:
+2026-06-04 12:05:11,227 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   identifier = DUMMY
+2026-06-04 12:05:11,227 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   anonballotbox = conf/../out-4/DUMMY-bb-4.json
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   anonballotbox_checksum = conf/../out-4/DUMMY-bb-4.json.sha256sum.asice
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   questioncount = null
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   candidates = conf/choices.asice
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   districts = conf/districts.asice
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   out = conf/../decout
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   provable = true
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   check_decodable = false
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   prove_invalid = true
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -   protocol:
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -     recover:
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -       threshold = 5
+2026-06-04 12:05:11,228 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 ee.ivxv.common.cli.AppRunner -       parties = 9
+2026-06-04 12:05:11,231 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/../out-4/DUMMY-bb-4.json.sha256sum.asice) called
+2026-06-04 12:05:11,231 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:11,232 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma laadimine failist 'conf/../out-4/DUMMY-bb-4.json.sha256sum.asice'
+2026-06-04 12:05:11,403 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-86D87D246453A3EDCE59BE8E9C679D5FC0D30D247CB57666EFB4EC59D31691EB
+2026-06-04 12:05:11,408 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/../out-4/DUMMY-bb-4.json.sha256sum.asice, files: DUMMY-bb-4.json.sha256sum
+2026-06-04 12:05:11,408 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/../out-4/DUMMY-bb-4.json.sha256sum.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:05:11,551 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:05:11,681 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma on laaditud
+2026-06-04 12:05:11,682 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja kontrollimine
+2026-06-04 12:05:11,682 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja on andnud MÄRT PÕDER
+2026-06-04 12:05:11,683 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkirja andmise aeg on 04.06.2026 12:04
+2026-06-04 12:05:11,684 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma allkiri on korrektne ja kehtiv
+2026-06-04 12:05:11,684 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti kontrollsumma arvutamine failist 'conf/../out-4/DUMMY-bb-4.json'
+2026-06-04 12:05:11,686 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.bbox.impl.BboxHelperImpl - Comparing checksum1 78f884e04d2326cb24eb7beecc4802587bb231d094bfeb7f6aae8fc70171dbbb
+2026-06-04 12:05:11,686 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.bbox.impl.BboxHelperImpl - Comparing checksum2 78f884e04d2326cb24eb7beecc4802587bb231d094bfeb7f6aae8fc70171dbbb
+2026-06-04 12:05:11,686 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.bbox.impl.BboxHelperImpl - Result: true
+2026-06-04 12:05:11,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti arvutatud kontrollsumma klapib allkirjastatud kontrollsummaga
+2026-06-04 12:05:11,688 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:11,689 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti laadimine failist 'conf/../out-4/DUMMY-bb-4.json'
+2026-06-04 12:05:11,701 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskast on laaditud
+2026-06-04 12:05:11,701 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liigi kontrollimine
+2026-06-04 12:05:11,702 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskasti liik on "Anonüümistatud e-valimiskast"
+2026-06-04 12:05:11,709 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskastis on 4 kvalifitseerimiseks sobivat häält
+2026-06-04 12:05:11,712 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:11,712 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja laadimine failist 'conf/districts.asice'
+2026-06-04 12:05:11,711 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/districts.asice) called
+2026-06-04 12:05:11,895 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:05:11,899 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/districts.asice, files: districts.json
+2026-06-04 12:05:11,899 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/districts.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:05:12,015 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:05:12,139 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja kontrollimine
+2026-06-04 12:05:12,140 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja on andnud MÄRT PÕDER
+2026-06-04 12:05:12,140 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkirja andmise aeg on 06.02.2026 00:52
+2026-06-04 12:05:12,141 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirja allkiri on korrektne ja kehtiv
+2026-06-04 12:05:12,162 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekiri on laaditud
+2026-06-04 12:05:12,163 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Ringkondade nimekirjas on 2 ringkonda
+2026-06-04 12:05:12,163 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Valimiste identifikaator on DUMMY
+2026-06-04 12:05:12,164 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:12,164 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekirja laadimine failist 'conf/choices.asice'
+2026-06-04 12:05:12,164 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - readContainer(conf/choices.asice) called
+2026-06-04 12:05:12,328 [main] WARN  SID=bqggqulfp85jud3kubqa0icsv3 e.e.e.d.s.x509.CertificateReorderer - Issuer not found for certificate C-A58C1C6E68390113ABCA6069B6BCF2965620FF40D771417F9D90988426750909
+2026-06-04 12:05:12,332 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/choices.asice, files: choices.json
+2026-06-04 12:05:12,332 [main] DEBUG SID=bqggqulfp85jud3kubqa0icsv3 e.i.c.s.c.bdoc.BdocContainerReader - container conf/choices.asice, signers: SERIALNUMBER=PNOEE-37909110298, GIVENNAME=MÄRT, SURNAME=PÕDER, CN="PÕDER,MÄRT,37909110298", C=EE
+2026-06-04 12:05:12,447 [pool-3-thread-1] WARN   e.e.e.d.v.SignatureValidationContext - No revocation found for the certificate C-F3A6FC612A6912E3ED971F527AEC31EACCDEEB0483604772486D63B602E47DB6
+2026-06-04 12:05:12,564 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekirja allkirja kontrollimine
+2026-06-04 12:05:12,564 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekirja allkirja on andnud MÄRT PÕDER
+2026-06-04 12:05:12,564 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekirja allkirja andmise aeg on 06.02.2026 00:52
+2026-06-04 12:05:12,564 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekirja allkiri on korrektne ja kehtiv
+2026-06-04 12:05:12,573 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekiri laaditud
+2026-06-04 12:05:12,574 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kandidaatide nimekirjas on 4 kandidaati
+2026-06-04 12:05:12,575 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Valimiste identifikaator on DUMMY
+2026-06-04 12:05:12,577 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:12,577 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Kontrollin e-valimiskasti vastavust ringkondade nimekirjale
+2026-06-04 12:05:12,577 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: E-valimiskast vastab ringkondade nimekirjale
+2026-06-04 12:05:12,577 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:12,578 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Dekrüpteerimine koos tõestustega
+2026-06-04 12:05:12,578 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Dekrüpteerimis- ja signeerimisprotokollide initsialiseerimine
+2026-06-04 12:05:12,594 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Dekrüpteerimis- ja signeerimisprotokollide initsialiseerimine edukas
+2026-06-04 12:05:12,595 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:12,596 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Häälte dekrüpteerimine
+2026-06-04 12:05:12,645 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Häälte dekrüpteerimine edukas
+2026-06-04 12:05:12,645 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: 
+2026-06-04 12:05:12,645 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfailide väjastamine kausta 'conf/../decout'
+2026-06-04 12:05:12,645 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan hääletamistulemused
+2026-06-04 12:05:13,176 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan dekrüpteeritud e-valimiskasti
+2026-06-04 12:05:13,349 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan dekrüpteerimistõestused
+2026-06-04 12:05:13,360 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan dekrüpteerimistõestused rikutud sedelite kohta
+2026-06-04 12:05:13,362 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljastan rikutud sedelid
+2026-06-04 12:05:13,365 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Väljundfailide väljastamine edukas
+2026-06-04 12:05:13,365 [pool-1-thread-1] INFO   e.i.c.s.console.BlockingQueueConsole - [CONSOLE]: Võtmerakendus lõpetas töö ilma vigadeta
+2026-06-04 12:05:13,366 [main] INFO  SID=bqggqulfp85jud3kubqa0icsv3 e.i.common.util.log.PerformanceLog - FINISHED application 'key', TIME: 6790 ms, SUCCESS: true

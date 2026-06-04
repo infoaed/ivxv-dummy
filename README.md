@@ -22,7 +22,9 @@ cat decout/DUMMY.question-DUMMY.tally
 
 ## Manipulatsioonid _à la_ Treier
 
-Vt [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja [Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna).
+Üldtausta vt [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja [Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna).
+
+Logikirjed on häälte Base64 vormigus krüptogrammide SHA-256 räsid Base64 vormingus, mida võib töödelda näiteks nii:
 
 ```
 echo "..." | base64 -d | sha256sum | cut -d" " -f1 | xxd -r -p | base64
@@ -31,7 +33,7 @@ grep DUMMY.question-DUMMY out-2/DUMMY-bb-2.json | cut -d\" -f4 | xargs -n1 bash 
 
 ### F31: swapping an overridden (non-latest) e-vote’s cryptogram with another voter’s latest cryptogram from the same district
 
-Nagu demonstreeritud [26.01.2026 Riigikogu korruptsioonikomisjonis](https://youtu.be/0MR4_eSaj5E?t=2484). Manipulatsioon toimub pärast konteinerite kehtivuse kontrolli ja korduvhäälte eemaldamist (`checkAndSquash`) ja muudab hääletustulemust.
+Nagu demonstreeritud [26.01.2026 Riigikogu korruptsioonikomisjonis](https://youtu.be/0MR4_eSaj5E?t=2484). Manipulatsioon toimub pärast konteinerite kehtivuse kontrolli ja korduvhäälte eemaldamist (käsk `checkAndSquash`) ning muudab hääletustulemust.
 
 Enne:
 
@@ -64,7 +66,7 @@ digidoc-tool create --file=out-2/DUMMY-bb-2.json.sha256sum out-2/DUMMY-bb-2.json
 
 ## IVXV minimalistlik seadistamine
 
-Võtme-, töötlemis ja auditirakenduse töölesaamiseks eelnevalt:
+Võtme-, töötlemis- ja auditirakenduse töölesaamiseks eelnevalt:
 
 ```
 git clone --recurse-submodules https://github.com/infoaed/korduva-kryptogrammi-juhtum.git

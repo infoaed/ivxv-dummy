@@ -10,7 +10,7 @@ rm -r log initout dummy_card_filesystems
 Häälte töötlemine, dekrüptimine ja tulemuse kuvamine:
 
 ```
-rm -r log out-* decout
+rm -r out-* decout
 ./processor checkAndSquash -c conf/certs.asice -p conf/processor.asice
 digidoc-tool create --file=out-2/DUMMY-bb-2.json.sha256sum out-2/DUMMY-bb-2.json.sha256sum.asice
 ./processor revokeAndAnonymize -c conf/certs.asice -p conf/processor.asice
@@ -88,11 +88,11 @@ make -C ivxv key ONLINE=1 DEVELOPMENT=1
 
 ## Häälte lisamine valimiskasti
 
-Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema õigesti pakendatud ZIP-failis, millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
+Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema [õigesti pakendatud ZIP-failis](https://github.com/infoaed/ivxv-tools/blob/main/votepackage.py), millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
 
 ```
 ./vote.py --local
-./votepackage.py --extract-pcn ivxv-dummy votes.zip
+./votepackage.py ivxv-dummy votes.zip
 sha256sum votes.zip | cut -d" " -f1 > votes.zip.sha256sum
 digidoc-tool create --file=votes.zip.sha256sum votes.zip.sha256sum.asice
 ```

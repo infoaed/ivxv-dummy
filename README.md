@@ -88,7 +88,7 @@ make -C ivxv key ONLINE=1 DEVELOPMENT=1
 
 ## Häälte lisamine valimiskasti
 
-Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema [õigesti pakendatud ZIP-failis](https://github.com/infoaed/ivxv-tools/blob/main/votepackage.py), millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
+Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema [õigesti pakendatud ZIP-failis](https://github.com/infoaed/ivxv-tools/blob/main/README.md#votepackage), millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
 
 ```
 ./vote.py --local

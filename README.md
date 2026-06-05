@@ -88,9 +88,10 @@ make -C ivxv key ONLINE=1 DEVELOPMENT=1
 
 ## Häälte lisamine valimiskasti
 
-Hääled peavad olema õigesti pakendatud ZIP-failis, millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
+Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema õigesti pakendatud ZIP-failis, millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
 
 ```
+./vote.py --local
 ./votepackage.py --extract-pcn ivxv-dummy votes.zip
 sha256sum votes.zip | cut -d" " -f1 > votes.zip.sha256sum
 digidoc-tool create --file=votes.zip.sha256sum votes.zip.sha256sum.asice

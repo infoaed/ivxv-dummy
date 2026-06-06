@@ -1,12 +1,5 @@
 # IVXV test dummy
 
-Võtmete genereerimine (uute võtmete korral kaasapandud hääled enam ei tööta):
-
-```
-rm -r log initout dummy_card_filesystems
-./key init -c conf/certs.asice -p conf/key.asice
-```
-
 Häälte töötlemine, dekrüptimine ja tulemuse kuvamine:
 
 ```
@@ -20,9 +13,16 @@ digidoc-tool create --file=out-4/DUMMY-bb-4.json.sha256sum out-4/DUMMY-bb-4.json
 cat decout/DUMMY.question-DUMMY.tally
 ```
 
-## Manipulatsioonid _à la_ Treier
+Võtmete genereerimine (uute võtmete korral kaasapandud hääled enam ei tööta):
 
-Treieri ründed põhinevad lihtsal faktil, et RVT võib anda audiitorile mistahes väljamõeldud valimiskastid või logid ja kui audiitor usaldab RVT-d, siis saab RVT poolne siseründaja või RVT süsteemi ligipääsu omandanud välisründaja tulemusi võltsida. Tehnilisi kirjeldusi vt [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja üldtausta [Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna).
+```
+rm -r log initout dummy_card_filesystems
+./key init -c conf/certs.asice -p conf/key.asice
+```
+
+## Manipulatsioonid _à la_ Treier/Düüna
+
+Treieri/Düüna ründed põhinevad lihtsal faktil, et RVT võib anda audiitorile mistahes väljamõeldud valimiskastid või logid ja kui audiitor usaldab RVT-d, siis saab RVT poolne siseründaja või RVT süsteemi ligipääsu omandanud välisründaja [tulemusi võltsida audiitorile avastamatult](https://digikogu.taltech.ee/et/Item/50cabbbc-37e7-47f9-9711-940054bd2bfe). Treieri rünnete kirjeldusi vt tema 2025. aasta teadusartiklist [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja üldtausta "[TalTechi teadlased: Eesti e-valimised ei ole turvalised](https://arvamus.postimees.ee/8185476/ago-samoson-taltechi-teadlased-eesti-e-valimised-ei-ole-turvalised)" ja "[Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna)".
 
 Logikirjed on häälte Base64 vormigus krüptogrammide SHA-256 räsid Base64 vormingus, mida võib töödelda näiteks nii:
 

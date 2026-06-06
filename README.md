@@ -22,7 +22,7 @@ cat decout/DUMMY.question-DUMMY.tally
 
 ## Manipulatsioonid _à la_ Treier
 
-Üldtausta vt [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja [Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna).
+Treieri ründed põhinevad lihtsal faktil, et RVT võib anda audiitorile mistahes väljamõeldud valimiskastid või logid ja kui audiitor usaldab RVT-d, siis saab RVT poolne siseründaja või RVT süsteemi ligipääsu omandanud välisründaja tulemusi võltsida. Tehnilisi kirjeldusi vt [B. Fault Scenario Catalogue](https://ieeexplore.ieee.org/document/11271237#sec6b) ja üldtausta [Teadlane pani Eesti e-hääletuse proovile ja leidis 12 kriitilist viga: kui süsteemi ei parandata, võib e-hääletus kinni minna](https://geenius.delfi.ee/artikkel/120450950/teadlane-pani-eesti-e-haaletuse-proovile-ja-leidis-12-kriitilist-viga-kui-susteemi-ei-parandata-voib-e-haaletus-kinni-minna).
 
 Logikirjed on häälte Base64 vormigus krüptogrammide SHA-256 räsid Base64 vormingus, mida võib töödelda näiteks nii:
 

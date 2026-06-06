@@ -1,5 +1,7 @@
 # IVXV test dummy
 
+Töötlemise ja kokkulugemise etapid on kirjeldatud "[E-hääletamise käsiraamatu](https://www.valimised.ee/sites/default/files/2025-09/RVT%20korraldus%20nr%2012%20lisa%20IVXV%20e-h%C3%A4%C3%A4letamise%20k%C3%A4siraamat.pdf)" ptk 3-4, seadistustesse juhatab sisse "[IVXV seadistuste koostamise juhend](https://www.valimised.ee/sites/default/files/2025-09/RVT%20korraldus%20nr%2013%20lisa%20IVXV%20seadistuste%20koostejuhend.pdf)" ptk 4 jj.
+
 Häälte töötlemine, dekrüptimine ja tulemuse kuvamine kiirmeetodil:
 
 ```

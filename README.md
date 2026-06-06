@@ -1,6 +1,6 @@
 # IVXV test dummy
 
-Häälte töötlemine, dekrüptimine ja tulemuse kuvamine:
+Häälte töötlemine, dekrüptimine ja tulemuse kuvamine kiirmeetodil:
 
 ```
 rm -r out-* decout
@@ -9,6 +9,23 @@ digidoc-tool create --file=out-2/DUMMY-bb-2.json.sha256sum out-2/DUMMY-bb-2.json
 ./processor revokeAndAnonymize -c conf/certs.asice -p conf/processor.asice
 digidoc-tool create --file=out-4/DUMMY-bb-4.json.sha256sum out-4/DUMMY-bb-4.json.sha256sum.asice
 ./auditor integrity -c conf/certs.asice -p conf/auditor.asice
+./key decrypt -c conf/certs.asice -p conf/key.asice
+cat decout/DUMMY.question-DUMMY.tally
+```
+
+Häälte töötlemine, dekrüptimine ja tulemuse kuvamine neljas etapis:
+
+```
+rm -r out-* decout
+./processor check -c conf/certs.asice -p conf/processor.asice
+digidoc-tool create --file=out-1/DUMMY-bb-1.json.sha256sum out-1/DUMMY-bb-1.json.sha256sum.asice
+./processor squash -c conf/certs.asice -p conf/processor.asice
+digidoc-tool create --file=out-2/DUMMY-bb-2.json.sha256sum out-2/DUMMY-bb-2.json.sha256sum.asice
+./processor revoke -c conf/certs.asice -p conf/processor.asice
+digidoc-tool create --file=out-3/DUMMY-bb-3.json.sha256sum out-3/DUMMY-bb-3.json.sha256sum.asice
+./processor anonymize -c conf/certs.asice -p conf/processor.asice
+digidoc-tool create --file=out-4/DUMMY-bb-4.json.sha256sum out-4/DUMMY-bb-4.json.sha256sum.asice
+./auditor integrity -c conf/certs.asice -p conf/auditor_4step.asice
 ./key decrypt -c conf/certs.asice -p conf/key.asice
 cat decout/DUMMY.question-DUMMY.tally
 ```

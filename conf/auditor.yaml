@@ -1,9 +1,12 @@
 integrity:
   ballotbox: ../votes.zip
-  anon_bb: ../out-4/DUMMY-bb-4.json
+  #bb_errors: ../out-1/ballotbox_errors.txt
+  bb_errors: ../out-2/ballotbox_errors.txt
+  #log_accepted: ../out-1/DUMMY.question-DUMMY.check.log1
   log_accepted: ../out-2/DUMMY.question-DUMMY.check.log1
   log_squashed: ../out-2/DUMMY.question-DUMMY.squash.log2
+  #log_revoked: ../out-3/DUMMY.question-DUMMY.revoke.log2
   log_revoked: ../out-4/DUMMY.question-DUMMY.revoke.log2
   log_anonymised: ../out-4/DUMMY.question-DUMMY.anonymize.log3
-  bb_errors: ../out-2/ballotbox_errors.txt
+  anon_bb: ../out-4/DUMMY-bb-4.json
   #abort_early: false

@@ -4,7 +4,7 @@ check:
   districts: districts.asice
   #registrationlist: registration.zip
   #registrationlist_checksum: TESTCONF.registration.zip.sha256sum.bdoc
-  tskey: ts.pem
+  tskey: ts_pub.pem
   vlkey: vl_pub.pem
   voterlists:
     - path: voterlist.txt
@@ -27,7 +27,7 @@ checkAndSquash:
   districts: districts.asice
   #registrationlist: registration.zip
   #registrationlist_checksum: registration.zip.sha256sum.asice
-  tskey: ts.pem
+  tskey: ts_pub.pem
   vlkey: vl_pub.pem
   voterlists:
     - path: voterlist.txt

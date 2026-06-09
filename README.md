@@ -127,6 +127,13 @@ openssl dgst -sha256 -sign vl.pem -out voterlist.txt.signature voterlist.txt
 openssl dgst -sha256 -verify vl_pub.pem -signature voterlist.txt.signature voterlist.txt
 ```
 
+## Kogumisteenuse võtme loomine
+
+```
+openssl genrsa -out ts.pem 2048
+openssl rsa -in ts.pem -pubout -out ts_pub.pem
+```
+
 ## Kui konteiner "ei valideeru"
 
 Kui mõni sertifikaat on puudu ja digiallkirjade kontroll ei õnnestu, nt allkirjastatud konteiner "ei valideeru", siis siit leiab:

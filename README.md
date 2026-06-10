@@ -35,7 +35,7 @@ cat decout/DUMMY.question-DUMMY.tally
 Võtmete genereerimine (uute võtmete korral kaasapandud hääled enam ei tööta):
 
 ```
-rm -r log initout dummy_card_filesystems
+rm -r initout dummy_card_filesystems
 ./key init -c conf/certs.asice -p conf/key.asice
 ```
 

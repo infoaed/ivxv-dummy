@@ -1,6 +1,8 @@
 # IVXV test dummy
 
-Töötlemise ja kokkulugemise etapid on kirjeldatud "[E-hääletamise käsiraamatu](https://www.valimised.ee/sites/default/files/2025-09/RVT%20korraldus%20nr%2012%20lisa%20IVXV%20e-h%C3%A4%C3%A4letamise%20k%C3%A4siraamat.pdf)" ptk 3-4, seadistustesse juhatab sisse "[IVXV seadistuste koostamise juhend](https://www.valimised.ee/sites/default/files/2025-09/RVT%20korraldus%20nr%2013%20lisa%20IVXV%20seadistuste%20koostejuhend.pdf)" ptk 4 jj.
+Töötlemise ja kokkulugemise etapid on kirjeldatud "[E-hääletamise käsiraamatu](https://www.valimised.ee/sites/default/files/2025-09/RVT%20korraldus%20nr%2012%20lisa%20IVXV%20e-h%C3%A4%C3%A4letamise%20k%C3%A4siraamat.pdf)" ptk 3-4, seadistustesse juhatab sisse "[IVXV seadistuste koostamise juhend](https://www.valimised.ee/sites/default/files/2025-09/RVT%20korraldus%20nr%2013%20lisa%20IVXV%20seadistuste%20koostejuhend.pdf)" ptk 4 jj. Siinne juhis on vabalt levitatav[^1] ja kui [dokumentatsioon](https://www.valimised.ee/et/e-haaletamine/dokumendid) on ebapiisav, siis tuleb pöörduda [ametliku koodipuu](https://github.com/valimised/ivxv/tree/published/Documentation) ja selle eri harudes paiknevate juhendite/koodi poole.
+
+There is also [some documentation in English](https://www.valimised.ee/en/internet-voting/documents-about-internet-voting), that you can also find in [source repository](https://github.com/valimised/ivxv).
 
 Häälte töötlemine, dekrüptimine ja tulemuse kuvamine kiirmeetodil:
 
@@ -145,3 +147,5 @@ Kui mõni sertifikaat on puudu ja digiallkirjade kontroll ei õnnestu, nt allkir
 * https://www.skidsolutions.eu/resources/certificates/
 
 Tuleb puuduv sertifikaat lisada konteinerisse `certs.asice`, täiendada seal olevat faili `ivxv.properties` ja konteiner uuesti digiallkirjastada.
+
+[^1]: Peale siin failis olevate kirjelduste ja juhendmaterjalide on kogu varamu sisu [avalikuks kasutuseks CC0 alusel](https://creativecommons.org/publicdomain/zero/1.0/deed.et). Selgitava saatesõna autor on Märt Põder ja seda võib levitada [CC BY tingimustel autorit viidates](https://creativecommons.org/licenses/by/4.0/deed.et).

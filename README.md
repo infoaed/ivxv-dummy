@@ -105,16 +105,7 @@ make -C ivxv processor auditor ONLINE=1
 make -C ivxv key ONLINE=1 DEVELOPMENT=1
 ```
 
-## Häälte lisamine valimiskasti
-
-Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema [õigesti pakendatud ZIP-failis](https://github.com/infoaed/ivxv-tools/blob/main/README.md#votepackage), millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
-
-```
-./vote.py --local
-./votepackage.py ivxv-dummy votes.zip
-sha256sum votes.zip | cut -d" " -f1 > votes.zip.sha256sum
-digidoc-tool create --file=votes.zip.sha256sum votes.zip.sha256sum.asice
-```
+Kui hääled on kogumisteenuse allkirjaga siis `disable_rs.patch` pole vajalik.
 
 ## Valijate nimekirja tegemine
 
@@ -126,6 +117,19 @@ openssl ec -in vl.pem -pubout -out vl_pub.pem
 openssl dgst -sha256 -sign vl.pem -out voterlist.txt.signature voterlist.txt
 openssl dgst -sha256 -verify vl_pub.pem -signature voterlist.txt.signature voterlist.txt
 ```
+
+## Häälte lisamine valimiskasti
+
+Hääli saab anda [käsurea valijarakendusega](https://github.com/infoaed/ivxv-roster) ja need peavad olema [õigesti pakendatud ZIP-failis](https://github.com/infoaed/ivxv-tools/blob/main/README.md#votepackage), millel on kontrollsumma ja kontrollsumma ise digiallkirjastatud.
+
+```
+./vote.py --local --collector
+./votepackage.py ivxv-dummy votes.zip
+sha256sum votes.zip | cut -d" " -f1 > votes.zip.sha256sum
+digidoc-tool create --file=votes.zip.sha256sum votes.zip.sha256sum.asice
+```
+
+Võtme `--collector` kasutamine lisab ajatemplitele kogumisteenuse signatuuri, aga eeldab [täiendatud DigiDoc tööriista](https://github.com/infoaed/ivxv-libdigidocpp) paigaldamist.
 
 ## Kogumisteenuse võtme loomine
 

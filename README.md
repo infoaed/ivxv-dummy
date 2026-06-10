@@ -105,7 +105,7 @@ make -C ivxv processor auditor ONLINE=1
 make -C ivxv key ONLINE=1 DEVELOPMENT=1
 ```
 
-Kui hääled on kogumisteenuse allkirjaga siis `disable_rs.patch` pole vajalik.
+Kui hääled on kogumisteenuse kinnitava signatuuriga, siis `disable_rs.patch` pole vajalik.
 
 ## Valijate nimekirja tegemine
 
